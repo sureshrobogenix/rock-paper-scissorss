@@ -28,7 +28,7 @@ const App = () => {
   useEffect(() => {
     const comboMoves = userChoice + computerChoice
     if (userPoints <= 4 && computerPoints <= 4) {
-      if (comboMoves === 'scissorspaper' || comboMoves === 'rockscissors' || comboMoves === 'paperrock') {
+      if (comboMoves === 'rockscissors' || comboMoves === 'scissorspaper' || comboMoves === 'paperrock') {
         // userPoints.current += 1
         const updatedUserPoints = userPoints + 1
         setUserPoints(updatedUserPoints)
